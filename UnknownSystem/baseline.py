@@ -443,7 +443,7 @@ if __name__ == "__main__":
         for u in range(len(error_buffer)):
             error_buffer[:,u] += error[:,u]
 
-        error = torch.roll(error, shifts=+1, dims=-1) #shift for causality => not needed as boundary condition on System is 0 = 400t previous
+        #error = torch.roll(error, shifts=+1, dims=-1) #shift for causality => not needed as boundary condition on System is 0 = 400t previous
         max_window = int(phi)
         integral = torch.zeros_like(error)
         for i in range(1, max_window + 1):
