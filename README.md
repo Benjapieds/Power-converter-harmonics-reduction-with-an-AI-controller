@@ -5,7 +5,7 @@ see the .pdf for more information.
 
 The software developped is regrouped in two folders:
 
-## Known system
+## KnownSystem
 
-## Unknown system
+## UnknownSystem
 
